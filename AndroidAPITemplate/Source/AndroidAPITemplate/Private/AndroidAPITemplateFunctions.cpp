@@ -1,5 +1,6 @@
 // Copyright (c) 2018 Isara Technologies. All Rights Reserved.
 
+#include "AndroidAPITemplateFunctions.h"
 #include "AndroidAPITemplatePrivatePCH.h"
 
 #include <string>
@@ -8,7 +9,7 @@ using namespace std;
 #if PLATFORM_ANDROID
 
 #include "Android/AndroidJNI.h"
-#include "AndroidApplication.h"
+#include "Android/AndroidApplication.h"
 
 #define INIT_JAVA_METHOD(name, signature) \
 if (JNIEnv* Env = FAndroidApplication::GetJavaEnv(true)) { \
