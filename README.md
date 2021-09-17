@@ -1,3 +1,5 @@
+### 添加UE 4.26支持
+
 # AndroidAPITemplate
 这是一个老外的网站：http://isaratech.com ，提供的一个虚幻安卓原生开发的模板，里面有一些报错，做了一些调整放到了这里，简单的实现了调用一个Toast的接口。  
 
